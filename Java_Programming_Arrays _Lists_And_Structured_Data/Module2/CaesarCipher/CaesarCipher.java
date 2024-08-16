@@ -85,6 +85,15 @@ public class CaesarCipher {
     public void testEncryptTwoKeys() {
         String encrypted = encryptTwoKeys("First Legion",23,17);
         System.out.println(encrypted);
+
+        System.out.println("Test Quiz");
+        encrypted = encryptTwoKeys("At noon be in the conference room with your hat on for a surprise party. YELL LOUD!",8,21);
+        System.out.println(encrypted);
+    }
+
+    public void testCaesarQuiz() {
+        String encrypted = encrypt("At noon be in the conference room with your hat on for a surprise party. YELL LOUD!",15);
+        System.out.println(encrypted);
     }
 
     public static void main(String[] args) {
