@@ -23,8 +23,8 @@ public class WordPlay {
         for(int i = 0; i < newPhrase.length(); i++) {
             char currChar = newPhrase.charAt(i);
             if (currChar == ch || Character.toLowerCase(currChar) == ch) {
-                int index = newPhrase.indexOf(Character.toString(currChar));
-                if ((index + 1) % 2 == 0) {
+                //int index = newPhrase.indexOf(Character.toString(currChar));
+                if ((i + 1) % 2 == 0) {
                     newPhrase.setCharAt(i, '+');
                 } else {
                     newPhrase.setCharAt(i, '*');
