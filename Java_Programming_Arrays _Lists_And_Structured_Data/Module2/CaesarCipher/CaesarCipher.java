@@ -98,7 +98,7 @@ public class CaesarCipher {
 
     public static void main(String[] args) {
         CaesarCipher cc = new CaesarCipher();
-        cc.testEncryptTwoKeys();
+        cc.testCaesarQuiz();
     }
 }
 
