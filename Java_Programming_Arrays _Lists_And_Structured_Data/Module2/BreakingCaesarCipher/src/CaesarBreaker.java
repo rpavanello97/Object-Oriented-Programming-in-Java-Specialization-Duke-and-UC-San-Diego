@@ -28,7 +28,7 @@ public class CaesarBreaker {
         //Calculate the key used to encrypt each half String.
         int key1 = getKey(strStarting0);
         int key2 = getKey(strStarting1);
-        System.out.println("key1 is"+key1+", key2 is "+key2);
+        System.out.println("key1 is "+key1+", key2 is "+key2);
 
         return cc.encryptTwoKeys(encrypted,26-key1,26-key2);
     }
@@ -41,7 +41,7 @@ public class CaesarBreaker {
             char ch = Character.toLowerCase(message.charAt(i));
             int index = alph.indexOf(ch);
             if (index != -1) {
-                counts[index] += 1;
+                counts[index]++;
             }
         }
         return counts;
@@ -112,8 +112,16 @@ public class CaesarBreaker {
         System.out.println(decrypted);
     }
 
+    public void testPracticeQuiz() {
+        //String str = "abc.";
+        //char test = str.charAt(str.length()-1);
+
+        System.out.println(decryptTwoKeys("Akag tjw Xibhr awoa aoee xakex znxag xwko"));
+
+    }
+
     public static void main(String[] args) {
         CaesarBreaker breaker = new CaesarBreaker();
-        breaker.testDecrypt();
+        breaker.testPracticeQuiz();
     }
 }
