@@ -28,9 +28,45 @@ public class CaesarBreaker {
         //Calculate the key used to encrypt each half String.
         int key1 = getKey(strStarting0);
         int key2 = getKey(strStarting1);
+
         System.out.println("key1 is "+key1+", key2 is "+key2);
 
         return cc.encryptTwoKeys(encrypted,26-key1,26-key2);
+    }
+
+    public void decryptTwoKeysBruteForce(String encrypted) {
+        /**
+         * It has the same idea than decrypt method but using encrypted with 2 keys from encryptTwoKeys.
+         */
+        CaesarCipher cc = new CaesarCipher();
+
+        //Get string starting 0.
+        String strStarting0 = halfOfString(encrypted, 0);
+
+        //Get string starting 1
+        String strStarting1 = halfOfString(encrypted, 1);
+
+        for (int k1 = 0; k1 < 26; k1++) {
+            for (int k2 = 0; k2 < 26; k2++) {
+                String decrypted = cc.encryptTwoKeys(encrypted,26-k1,26-k2);
+                if(checkMostCommon(decrypted)) {
+                    System.out.println("Possible match at key1: "+k1+", key2: "+k2);
+                    System.out.println(decrypted);
+                    System.out.println("");
+                }
+            }
+        }
+    }
+
+    public boolean checkMostCommon(String message) {
+        String[] commonWords = {" the "," of "," to "," and "," in "," is "," it "," you "," that "};
+        for (int i = 0; i < commonWords.length; i++) {
+            int index = message.indexOf(commonWords[i]);
+            if (index != -1) {
+                return true;
+            }
+        }
+        return false;
     }
 
     private int[] countLetters(String message) {
@@ -78,7 +114,7 @@ public class CaesarBreaker {
         int maxIndex = maxIndex(frequencies);
 
         int key = maxIndex - 4;
-        if (maxIndex < 4)
+            if (maxIndex < 4)
             key = 26 - (4 - key);
 
         return key;
@@ -116,8 +152,16 @@ public class CaesarBreaker {
         //String str = "abc.";
         //char test = str.charAt(str.length()-1);
 
-        System.out.println(decryptTwoKeys("Akag tjw Xibhr awoa aoee xakex znxag xwko"));
+        /** Question 8. */
+        decryptTwoKeysBruteForce("Top ncmy qkff vi vguv vbg ycpx"); //Message only with e.
 
+        /** Question 9. */
+//        decryptTwoKeysBruteForce("Akag tjw Xibhr awoa aoee xakex znxag xwko");
+
+        /** Question 10. */
+//        FileResource fr = new FileResource("data/mysteryTwoKeysPractice.txt");
+//        String message = fr.asString();
+//        System.out.println(decryptTwoKeys(message));
     }
 
     public static void main(String[] args) {
@@ -125,3 +169,4 @@ public class CaesarBreaker {
         breaker.testPracticeQuiz();
     }
 }
+
