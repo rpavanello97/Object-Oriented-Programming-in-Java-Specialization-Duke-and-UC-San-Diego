@@ -2,9 +2,12 @@ import edu.duke.*;
 
 public class CaesarCipher {
     private String alphabet;
-    private String alphabetLower;
     private String shiftedAlphabet;
+
+    private String alphabetLower;
     private String shiftedAlphabetLower;
+
+    private int mainKey;
 
     public CaesarCipher(int key) {
         alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -12,6 +15,8 @@ public class CaesarCipher {
 
         shiftedAlphabet = alphabet.substring(key)+ alphabet.substring(0,key);
         shiftedAlphabetLower = alphabetLower.substring(key)+ alphabetLower.substring(0,key);
+
+        mainKey = key;
     }
 
     public String encrypt(String input) {
@@ -31,11 +36,9 @@ public class CaesarCipher {
         return encrypted.toString();
     }
 
-
-
-
-    public static void main(String[] args) {
-
+    public String decrypt(String input) {
+        CaesarCipher cc = new CaesarCipher(26 - mainKey);
+        return cc.encrypt(input);
     }
 }
 

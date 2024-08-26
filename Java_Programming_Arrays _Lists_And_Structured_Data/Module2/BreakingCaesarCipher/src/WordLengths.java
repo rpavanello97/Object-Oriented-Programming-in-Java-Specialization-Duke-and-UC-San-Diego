@@ -15,9 +15,8 @@ public class WordLengths {
             } else {
                 length = word.length() - 2;
             }
-
-            counts[length]++;
-
+            if (length > 0)
+                counts[length]++;
         }
 
         //Print Words
@@ -50,9 +49,17 @@ public class WordLengths {
         System.out.println("Most common word length in the file "+indexOfMax(values));
     }
 
+    public void testCountWordLengthsQuiz() {
+        FileResource fr = new FileResource();
+        int[] counts = new int[16000];
+
+        int[] values = countWordLengths(fr,counts);
+        System.out.println("Most common word length in the file "+indexOfMax(values));
+    }
+
     public static void main(String[] args) {
         WordLengths wl = new WordLengths();
-        wl.testCountWordLengths();
+        wl.testCountWordLengthsQuiz();
     }
 
 }

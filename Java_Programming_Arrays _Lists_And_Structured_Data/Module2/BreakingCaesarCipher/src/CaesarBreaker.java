@@ -153,7 +153,7 @@ public class CaesarBreaker {
         //char test = str.charAt(str.length()-1);
 
         /** Question 8. */
-        decryptTwoKeysBruteForce("Top ncmy qkff vi vguv vbg ycpx"); //Message only with e.
+//        decryptTwoKeysBruteForce("Top ncmy qkff vi vguv vbg ycpx"); //Message only with e.
 
         /** Question 9. */
 //        decryptTwoKeysBruteForce("Akag tjw Xibhr awoa aoee xakex znxag xwko");
@@ -162,6 +162,17 @@ public class CaesarBreaker {
 //        FileResource fr = new FileResource("data/mysteryTwoKeysPractice.txt");
 //        String message = fr.asString();
 //        System.out.println(decryptTwoKeys(message));
+
+        /** Quiz - Question 6 */
+//        decryptTwoKeysBruteForce("Hfs cpwewloj loks cd Hoto kyg Cyy.");
+
+        /** Quiz - Question 7 */
+//        decryptTwoKeysBruteForce("Aal uttx hm aal Qtct Fhljha pl Wbdl. Pvxvxlx!");
+
+        /** Quiz - Question 8 */
+        FileResource fr = new FileResource();
+            System.out.println(decryptTwoKeys(fr.asString()));
+        decryptTwoKeysBruteForce(fr.asString());
     }
 
     public static void main(String[] args) {
