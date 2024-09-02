@@ -17,10 +17,18 @@ public class Main {
 //        cw.randomTester();
 
         /** Tests from Programming Exercise */
-        WordFrequencies wordFreq = new WordFrequencies();
+//        WordFrequencies wordFreq = new WordFrequencies();
+///       wordFreq.tester();
+//
+//        CharactersInPlay charsPlay = new CharactersInPlay();
+//        charsPlay.tester();
+
+        /** Telling a Random Story - Quiz */
+//        WordFrequencies wordFreq = new WordFrequencies();
 //        wordFreq.tester();
 
         CharactersInPlay charsPlay = new CharactersInPlay();
         charsPlay.tester();
+
     }
 }
