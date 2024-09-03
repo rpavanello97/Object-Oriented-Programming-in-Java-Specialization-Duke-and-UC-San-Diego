@@ -1,5 +1,6 @@
 import classes.CountWords;
 import classes.WordsWithArrays;
+import classesTwo.GladLib;
 import programming.exercise.CharactersInPlay;
 import programming.exercise.WordFrequencies;
 
@@ -27,8 +28,16 @@ public class Main {
 //        WordFrequencies wordFreq = new WordFrequencies();
 //        wordFreq.tester();
 
-        CharactersInPlay charsPlay = new CharactersInPlay();
-        charsPlay.tester();
+//        CharactersInPlay charsPlay = new CharactersInPlay();
+//        charsPlay.tester();
 
+        usingGladLibs();
+
+    }
+
+    /** Using GladLibs topic */
+    private static void usingGladLibs() {
+        GladLib glalib = new GladLib();
+        glalib.makeStory();
     }
 }
