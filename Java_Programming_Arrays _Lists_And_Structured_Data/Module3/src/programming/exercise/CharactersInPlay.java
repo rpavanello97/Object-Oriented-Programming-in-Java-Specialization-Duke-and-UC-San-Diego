@@ -47,15 +47,16 @@ public class CharactersInPlay {
                 System.out.println(charNames.get(i)+" "+charFreqs.get(i));
             }
         }
-        //TODO It is necessary to test it.
     }
 
     public void tester() {
         findAllCharacters();
-        for (int i = 0; i < charNames.size(); i++) {
-            if (charFreqs.get(i) > 1) {
-                System.out.println(charNames.get(i)+" "+charFreqs.get(i));
-            }
-        }
+        charactersWithNumParts(10,9000);
+//
+//        for (int i = 0; i < charNames.size(); i++) {
+//            if (charFreqs.get(i) > 1) {
+//                System.out.println(charNames.get(i)+" "+charFreqs.get(i));
+//            }
+//        }
     }
 }
