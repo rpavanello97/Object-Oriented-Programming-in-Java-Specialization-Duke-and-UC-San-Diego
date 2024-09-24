@@ -4,6 +4,7 @@ import classesTwo.GladLib;
 import programming.exercise.CharactersInPlay;
 import programming.exercise.WordFrequencies;
 import programming.exerciseTwo.CodonCount;
+import programming.exerciseTwo.WordsInFiles;
 
 public class Main {
     public static void main(String[] args) {
@@ -36,7 +37,9 @@ public class Main {
 
         /** Programming Exercise 2 - Improving GladLibs */
         CodonCount cc = new CodonCount();
-        cc.testCodonCount();
+        //cc.testCodonCount();
+        WordsInFiles wf = new WordsInFiles();
+        wf.tester();
     }
 
     /** Using GladLibs topic */
