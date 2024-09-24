@@ -3,6 +3,7 @@ import classes.WordsWithArrays;
 import classesTwo.GladLib;
 import programming.exercise.CharactersInPlay;
 import programming.exercise.WordFrequencies;
+import programming.exerciseTwo.CodonCount;
 
 public class Main {
     public static void main(String[] args) {
@@ -31,8 +32,11 @@ public class Main {
 //        CharactersInPlay charsPlay = new CharactersInPlay();
 //        charsPlay.tester();
 
-        usingGladLibs();
+//        usingGladLibs();
 
+        /** Programming Exercise 2 - Improving GladLibs */
+        CodonCount cc = new CodonCount();
+        cc.testCodonCount();
     }
 
     /** Using GladLibs topic */
@@ -40,4 +44,6 @@ public class Main {
         GladLib glalib = new GladLib();
         glalib.makeStory();
     }
+
+
 }
