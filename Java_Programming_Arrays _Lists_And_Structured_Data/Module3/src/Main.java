@@ -4,6 +4,7 @@ import classesTwo.GladLib;
 import programming.exercise.CharactersInPlay;
 import programming.exercise.WordFrequencies;
 import programming.exerciseTwo.CodonCount;
+import programming.exerciseTwo.GladLibMap;
 import programming.exerciseTwo.WordsInFiles;
 
 public class Main {
@@ -36,16 +37,24 @@ public class Main {
 //        usingGladLibs();
 
         /** Programming Exercise 2 - Improving GladLibs */
-        CodonCount cc = new CodonCount();
+//        CodonCount cc = new CodonCount();
         //cc.testCodonCount();
-        WordsInFiles wf = new WordsInFiles();
-        wf.tester();
+//        WordsInFiles wf = new WordsInFiles();
+//        wf.tester();
+
+        usingGladLibsWithHash();
     }
 
     /** Using GladLibs topic */
     private static void usingGladLibs() {
         GladLib glalib = new GladLib();
         glalib.makeStory();
+    }
+
+    /** Using GladLibs with HashMap */
+    private static void usingGladLibsWithHash() {
+        GladLibMap glalibHash = new GladLibMap();
+        glalibHash.makeStory();
     }
 
 
