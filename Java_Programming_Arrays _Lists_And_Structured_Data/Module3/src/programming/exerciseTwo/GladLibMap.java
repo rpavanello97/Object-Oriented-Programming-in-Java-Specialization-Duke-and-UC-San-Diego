@@ -55,12 +55,6 @@ public class GladLibMap {
 
     private String getSubstitute(String label) {
         /** Call method randomFrom passing the associate ArrayList from the label. */
-
-        if (!usedCategories.contains(label)) {
-            //Keep track of used categories.
-            usedCategories.add(label);
-        }
-
         if (!label.equals("number")) {
             return randomFrom(myMap.get(label));
         } else {
@@ -76,13 +70,18 @@ public class GladLibMap {
         }
         String prefix = w.substring(0,first);
         String suffix = w.substring(last+1);
-        String sub = getSubstitute(w.substring(first+1,last));
+        String label = w.substring(first+1,last);
+        String sub = getSubstitute(label);
 
         if (usedWords.contains(sub)) {
             processWord(w);
         } else {
             usedWords.add(sub);
             totalReplaces++;
+            if (!usedCategories.contains(label)) {
+                //Keep track of used categories.
+                usedCategories.add(label);
+            }
         }
 
         return prefix+sub+suffix;

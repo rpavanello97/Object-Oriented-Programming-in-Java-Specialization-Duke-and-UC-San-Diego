@@ -22,7 +22,7 @@ public class Main {
 
         /** Tests from Programming Exercise */
 //        WordFrequencies wordFreq = new WordFrequencies();
-///       wordFreq.tester();
+//        wordFreq.tester();
 //
 //        CharactersInPlay charsPlay = new CharactersInPlay();
 //        charsPlay.tester();
@@ -38,7 +38,7 @@ public class Main {
 
         /** Programming Exercise 2 - Improving GladLibs */
 //        CodonCount cc = new CodonCount();
-        //cc.testCodonCount();
+//        cc.testCodonCount();
 //        WordsInFiles wf = new WordsInFiles();
 //        wf.tester();
 

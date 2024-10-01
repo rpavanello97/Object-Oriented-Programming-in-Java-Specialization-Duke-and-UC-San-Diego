@@ -51,7 +51,7 @@ public class CharactersInPlay {
 
     public void tester() {
         findAllCharacters();
-        charactersWithNumParts(10,9000);
+        charactersWithNumParts(10,15);
 //
 //        for (int i = 0; i < charNames.size(); i++) {
 //            if (charFreqs.get(i) > 1) {

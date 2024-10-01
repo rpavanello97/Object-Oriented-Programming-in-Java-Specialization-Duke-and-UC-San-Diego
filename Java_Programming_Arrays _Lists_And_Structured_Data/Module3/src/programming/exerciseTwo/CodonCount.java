@@ -57,8 +57,8 @@ public class CodonCount {
         FileResource fr = new FileResource();
         String dna = fr.asString().trim().toUpperCase();
         int[] possibleReadingFrames = {0,1,2};
-        int start = 1;
-        int end = 5;
+        int start = 7;
+        int end = 7;
 
         for (int i : possibleReadingFrames) {
             buildCodonMap(i,dna);

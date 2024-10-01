@@ -20,10 +20,15 @@ public class WordsInFiles {
         /**  This method should add all the words from f into the map. */
         FileResource fr = new FileResource(f);
         for (String word : fr.words()) {
-            word = word.toLowerCase();
+            //word = word.toLowerCase(); //Questions 15 from the final quiz don't recognize it.
+            char lastchar = word.charAt(word.length()-1);
+            if (!Character.isLetter(lastchar)){
+                word = word.substring(0,word.length()-1);
+            }
             if (words.containsKey(word)) {
                 //Word already exist.
-                words.get(word).add(f.getName());
+                if(!words.get(word).contains(f.getName()))
+                    words.get(word).add(f.getName());
             } else {
                 //Word doesn't exist yet.
                 ArrayList<String> fileNames = new ArrayList<String>();
@@ -70,15 +75,55 @@ public class WordsInFiles {
     public void tester () {
         /** This method prints the names of the files this word appears in, one filename per line. */
         buildWordFileMap();
-        ArrayList<String> wordInFiles = wordsInNumFiles(maxNumber());
-        for (int i = 0; i < wordInFiles.size(); i++) {
-            System.out.println(wordInFiles.get(i));
-        }
+//        ArrayList<String> wordInFiles = wordsInNumFiles(maxNumber());
+//        ArrayList<String> wordInFiles = wordsInNumFiles(4);
+//        System.out.println("Number of words apperars in 4 files: "+wordInFiles.size());
+//        for (int i = 0; i < wordInFiles.size(); i++) {
+//            System.out.println(wordInFiles.get(i));
+//        }
 
         // Print the HashMap
-        System.out.println("Entire HashMap --------------------------------------- ");
+//        System.out.println("Entire HashMap --------------------------------------- ");
+//        for (HashMap.Entry<String, ArrayList<String>> entry : words.entrySet()) {
+//            System.out.println(entry.getKey() + ": " + entry.getValue());
+//        }
+
+//        /** Using and Improving GladLibs QUIZ - Question 4. */
+//        ArrayList<String> wordForQuiz = wordsInNumFiles(5);
+//        System.out.println("How many words are there that occur in five files?: "+wordForQuiz.size());
+
+//        /** Using and Improving GladLibs QUIZ - Question 5. */
+//        ArrayList<String> wordForQuiz = wordsInNumFiles(4);
+//        System.out.println("How many words are there that each appear in four of the five files?"+wordForQuiz.size());
+
+//        /** Using and Improving GladLibs QUIZ - Question 6. */
+//        for (HashMap.Entry<String, ArrayList<String>> entry : words.entrySet()) {
+//            if(entry.getKey().equals("sad")) {
+//                System.out.println(entry.getValue());
+//            }
+//        }
+//
+//        /** Using and Improving GladLibs QUIZ - Question 7. */
+//        for (HashMap.Entry<String, ArrayList<String>> entry : words.entrySet()) {
+//            if(entry.getKey().equals("red")) {
+//                System.out.println("In which files does the word “red” appear? :"+entry.getValue());
+//            }
+//        }
+
+//        /** Using and Improving GladLibs FInal QUIZ - Question 14. */
+//        for (HashMap.Entry<String, ArrayList<String>> entry : words.entrySet()) {
+//            if(entry.getKey().equals("laid")) {
+//                System.out.println("In which files does the word “laid” appear? :"+entry.getValue());
+//            }
+//        }
+
+        /** Using and Improving GladLibs FInal QUIZ - Question 15. */
         for (HashMap.Entry<String, ArrayList<String>> entry : words.entrySet()) {
-            System.out.println(entry.getKey() + ": " + entry.getValue());
+            if(entry.getKey().equals("tree")) {
+                System.out.println("In which files does the word “tree” appear? :"+entry.getValue());
+                System.out.println("(Consider only the exact lowercase string \"tree\". \"TREE\" or \"tree.\" would be different words.)");
+            }
         }
+
     }
 }
