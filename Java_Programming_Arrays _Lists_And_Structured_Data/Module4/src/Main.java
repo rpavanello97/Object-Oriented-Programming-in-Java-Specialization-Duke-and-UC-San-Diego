@@ -30,11 +30,18 @@ public class Main {
      */
     public static void testLogAnalyzer() {
         LogAnalyzer logAnalyzer = new LogAnalyzer();
-        logAnalyzer.readFile("short-test_log");
+        logAnalyzer.readFile("weblog1_log");
+
         //logAnalyzer.printAll();
         //System.out.println("There are "+logAnalyzer.countUniqueIPs()+" unique IPs.");
-        //logAnalyzer.uniqueIPVisitsOnDay("Sep 14");
-        ArrayList<String> uniqueOnDay = logAnalyzer.uniqueIPVisitsOnDay("Sep 30");
-        System.out.println(uniqueOnDay.size());
+
+//        logAnalyzer.printAllHigherThanNum(400);
+
+//        ArrayList<String> uniqueOnDay = logAnalyzer.uniqueIPVisitsOnDay("Mar 17");
+//        System.out.println(uniqueOnDay.size());
+
+        //System.out.println("There are "+logAnalyzer.countUniqueIPsInRange(200,299)+" unique IPs.");
+        System.out.println("There are "+logAnalyzer.countUniqueIPsInRange(300,399)+" unique IPs.");
+
     }
 }

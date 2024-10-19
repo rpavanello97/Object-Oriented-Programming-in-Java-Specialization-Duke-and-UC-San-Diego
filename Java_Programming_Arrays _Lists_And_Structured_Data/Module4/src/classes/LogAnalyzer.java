@@ -42,6 +42,14 @@ public class LogAnalyzer {
         return uniqueIPs.size();
     }
 
+    public void printAllHigherThanNum(int num) {
+        for (LogEntry log : records) {
+            if (log.getStatusCode() > num) {
+                System.out.println(log.toString());
+            }
+        }
+    }
+
     public ArrayList<String> uniqueIPVisitsOnDay(String someday) {
         //someday format MMM DD
         /** This method accesses the web logs in records and returns an ArrayList of
@@ -55,6 +63,21 @@ public class LogAnalyzer {
             }
         }
         return uniqueIPs;
+    }
+
+    public int countUniqueIPsInRange(int low, int high){
+        /**
+         * This method returns the number of unique IP addresses in records that have a status code in the range from low to high, inclusive.
+         * */
+        ArrayList<String> uniqueIPs = new ArrayList<String>();
+        for (LogEntry log : records) {
+            String ip = log.getIpAddress();
+            if ((log.getStatusCode() >= low && log.getStatusCode() <= high)
+                && !uniqueIPs.contains(ip)) {
+                uniqueIPs.add(ip);
+            }
+        }
+        return uniqueIPs.size();
     }
 
 
