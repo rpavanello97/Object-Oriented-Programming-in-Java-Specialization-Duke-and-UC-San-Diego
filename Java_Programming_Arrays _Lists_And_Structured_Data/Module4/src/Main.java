@@ -1,6 +1,7 @@
 import classes.LogAnalyzer;
 import classes.LogEntry;
 
+import java.util.ArrayList;
 import java.util.Date;
 
 public class Main {
@@ -30,6 +31,10 @@ public class Main {
     public static void testLogAnalyzer() {
         LogAnalyzer logAnalyzer = new LogAnalyzer();
         logAnalyzer.readFile("short-test_log");
-        logAnalyzer.printAll();
+        //logAnalyzer.printAll();
+        //System.out.println("There are "+logAnalyzer.countUniqueIPs()+" unique IPs.");
+        //logAnalyzer.uniqueIPVisitsOnDay("Sep 14");
+        ArrayList<String> uniqueOnDay = logAnalyzer.uniqueIPVisitsOnDay("Sep 30");
+        System.out.println(uniqueOnDay.size());
     }
 }

@@ -31,5 +31,31 @@ public class LogAnalyzer {
         }
     }
 
+    public int countUniqueIPs() {
+        ArrayList<String> uniqueIPs = new ArrayList<String>();
+        for (LogEntry log : records) {
+            String ip = log.getIpAddress();
+            if (!uniqueIPs.contains(ip)) {
+                uniqueIPs.add(ip);
+            }
+        }
+        return uniqueIPs.size();
+    }
+
+    public ArrayList<String> uniqueIPVisitsOnDay(String someday) {
+        //someday format MMM DD
+        /** This method accesses the web logs in records and returns an ArrayList of
+         * Strings of unique IP addresses that had access on the given day. */
+        ArrayList<String> uniqueIPs = new ArrayList<String>();
+        for (LogEntry log : records) {
+            String ip = log.getIpAddress();
+            String dateStr = log.getAccessTime().toString();
+            if (dateStr.contains(someday) && !uniqueIPs.contains(ip)) {
+                uniqueIPs.add(ip);
+            }
+        }
+        return uniqueIPs;
+    }
+
 
 }
