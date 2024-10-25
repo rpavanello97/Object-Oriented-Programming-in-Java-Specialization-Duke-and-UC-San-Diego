@@ -31,14 +31,14 @@ public class Main {
      */
     public static void testLogAnalyzer() {
         LogAnalyzer logAnalyzer = new LogAnalyzer();
-        logAnalyzer.readFile("weblog3-short_log");
+        logAnalyzer.readFile("weblog2_log");
 
 //        logAnalyzer.printAll();
 //        System.out.println("There are "+logAnalyzer.countUniqueIPs()+" unique IPs.");
 //
 //        logAnalyzer.printAllHigherThanNum(400);
 //
-//        ArrayList<String> uniqueOnDay = logAnalyzer.uniqueIPVisitsOnDay("Mar 17");
+//        ArrayList<String> uniqueOnDay = logAnalyzer.uniqueIPVisitsOnDay("Sep 24");
 //        System.out.println(uniqueOnDay.size());
 
 //        System.out.println("There are "+logAnalyzer.countUniqueIPsInRange(200,299)+" unique IPs.");
@@ -48,7 +48,7 @@ public class Main {
 //        HashMap<String, Integer> countHash =  logAnalyzer.countVisitsPerIP();
 
 //        System.out.println(logAnalyzer.mostNumberVisitsByIP(countHash));
-//
+
 //        ArrayList<String> iPsMostVisited = logAnalyzer.iPsMostVisits(countHash);
 //        System.out.println(iPsMostVisited);
 
@@ -58,7 +58,7 @@ public class Main {
 //        String dayWithMostVisits = logAnalyzer.dayWithMostIPVisits(ipByDay);
 //        System.out.println(dayWithMostVisits);
 
-        ArrayList<String> iPsWithMostVisitsOnDay = logAnalyzer.iPsWithMostVisitsOnDay(ipByDay,"Sep 30");
+        ArrayList<String> iPsWithMostVisitsOnDay = logAnalyzer.iPsWithMostVisitsOnDay(ipByDay,"Sep 29");
         System.out.println(iPsWithMostVisitsOnDay);
     }
 }
