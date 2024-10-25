@@ -3,6 +3,7 @@ import classes.LogEntry;
 
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashMap;
 
 public class Main {
     public static void main(String[] args) {
@@ -30,18 +31,34 @@ public class Main {
      */
     public static void testLogAnalyzer() {
         LogAnalyzer logAnalyzer = new LogAnalyzer();
-        logAnalyzer.readFile("weblog1_log");
+        logAnalyzer.readFile("weblog3-short_log");
 
-        //logAnalyzer.printAll();
-        //System.out.println("There are "+logAnalyzer.countUniqueIPs()+" unique IPs.");
-
+//        logAnalyzer.printAll();
+//        System.out.println("There are "+logAnalyzer.countUniqueIPs()+" unique IPs.");
+//
 //        logAnalyzer.printAllHigherThanNum(400);
-
+//
 //        ArrayList<String> uniqueOnDay = logAnalyzer.uniqueIPVisitsOnDay("Mar 17");
 //        System.out.println(uniqueOnDay.size());
 
-        //System.out.println("There are "+logAnalyzer.countUniqueIPsInRange(200,299)+" unique IPs.");
-        System.out.println("There are "+logAnalyzer.countUniqueIPsInRange(300,399)+" unique IPs.");
+//        System.out.println("There are "+logAnalyzer.countUniqueIPsInRange(200,299)+" unique IPs.");
+//        System.out.println("There are "+logAnalyzer.countUniqueIPsInRange(300,399)+" unique IPs.");
 
+        /** Tests from "Programming Exercise: Counting Website Visits" class. */
+//        HashMap<String, Integer> countHash =  logAnalyzer.countVisitsPerIP();
+
+//        System.out.println(logAnalyzer.mostNumberVisitsByIP(countHash));
+//
+//        ArrayList<String> iPsMostVisited = logAnalyzer.iPsMostVisits(countHash);
+//        System.out.println(iPsMostVisited);
+
+        HashMap<String, ArrayList<String>> ipByDay = logAnalyzer.iPsForDays();
+//        System.out.println(ipByDay);
+
+//        String dayWithMostVisits = logAnalyzer.dayWithMostIPVisits(ipByDay);
+//        System.out.println(dayWithMostVisits);
+
+        ArrayList<String> iPsWithMostVisitsOnDay = logAnalyzer.iPsWithMostVisitsOnDay(ipByDay,"Sep 30");
+        System.out.println(iPsWithMostVisitsOnDay);
     }
 }
