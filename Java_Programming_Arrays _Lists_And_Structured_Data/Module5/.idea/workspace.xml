@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fa3ebcbc-a2fa-48ea-89d9-0053fb73542a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/courserajava.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/VigenereProgram/CaesarCipher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/VigenereProgram/CaesarCracker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/VigenereProgram/VigenereBreaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/VigenereProgram/VigenereCipher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/VigenereProgram/dictionaries/Danish" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/VigenereProgram/dictionaries/Dutch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/VigenereProgram/dictionaries/English" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/VigenereProgram/dictionaries/French" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/VigenereProgram/dictionaries/German" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/VigenereProgram/dictionaries/Italian" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/VigenereProgram/dictionaries/Portuguese" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/VigenereProgram/dictionaries/Spanish" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/VigenereProgram/messages/secretmessage1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/VigenereProgram/messages/secretmessage2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/VigenereProgram/messages/secretmessage3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/VigenereProgram/messages/secretmessage4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/VigenereProgram/package.bluej" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/aida.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/aida_keyverdi.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/athens.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/athens_keyflute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/oslusiadas.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/oslusiadas_key17.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/secretmessage1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/secretmessage2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/secretmessage3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/secretmessage4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/titus-small.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/titus-small_key5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/CaesarCipher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Slides/module5/BreakingVigenereIntroduction.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Slides/module5/KnownLanguageandKeyLength.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Slides/module5/UnknownKeyLength.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Slides/module5/UnknownLanguage.pdf" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;rpavanello97&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/rpavanello97/Object-Oriented-Programming-in-Java-Specialization-Duke-and-UC-San-Diego.git&quot;,
+    &quot;accountId&quot;: &quot;109cca0e-8986-4e38-bb9d-6b5572e5a1aa&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2nvbEXlGUFVNg9Wf5eEwchmXX42" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Object-Oriented-Programming-in-Java-Specialization-Duke-and-UC-San-Diego/Java_Programming_Arrays _Lists_And_Structured_Data/Library/courserajava.jar",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.52873564",
+    "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fa3ebcbc-a2fa-48ea-89d9-0053fb73542a" name="Changes" comment="" />
+      <created>1729856387011</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729856387011</updated>
+    </task>
+    <servers />
+  </component>
+</project>
