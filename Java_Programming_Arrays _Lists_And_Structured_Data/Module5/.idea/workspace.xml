@@ -1,45 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="fa3ebcbc-a2fa-48ea-89d9-0053fb73542a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/courserajava.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/VigenereProgram/CaesarCipher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/VigenereProgram/CaesarCracker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/VigenereProgram/VigenereBreaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/VigenereProgram/VigenereCipher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/VigenereProgram/dictionaries/Danish" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/VigenereProgram/dictionaries/Dutch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/VigenereProgram/dictionaries/English" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/VigenereProgram/dictionaries/French" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/VigenereProgram/dictionaries/German" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/VigenereProgram/dictionaries/Italian" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/VigenereProgram/dictionaries/Portuguese" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/VigenereProgram/dictionaries/Spanish" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/VigenereProgram/messages/secretmessage1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/VigenereProgram/messages/secretmessage2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/VigenereProgram/messages/secretmessage3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/VigenereProgram/messages/secretmessage4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/VigenereProgram/package.bluej" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/aida.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/aida_keyverdi.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/athens.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/athens_keyflute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/oslusiadas.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/oslusiadas_key17.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/secretmessage1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/secretmessage2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/secretmessage3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/secretmessage4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/titus-small.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/titus-small_key5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/CaesarCipher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Slides/module5/BreakingVigenereIntroduction.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Slides/module5/KnownLanguageandKeyLength.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Slides/module5/UnknownKeyLength.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Slides/module5/UnknownLanguage.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/CaesarCipherTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/CaesarCrackerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/VigenereBreakerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/VigenereCipherTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/VigenereBreaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/VigenereBreaker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,16 +54,32 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Object-Oriented-Programming-in-Java-Specialization-Duke-and-UC-San-Diego/Java_Programming_Arrays _Lists_And_Structured_Data/Library/courserajava.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.52873564",
-    "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable"
+    "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21155.17" />
+        <option value="bundled-js-predefined-d6986cc7102b-bed05e336f61-JavaScript-IU-243.21155.17" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -100,7 +88,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729856387011</updated>
+      <workItem from="1729889614171" duration="1168000" />
+      <workItem from="1730105781784" duration="4540000" />
+      <workItem from="1730111820157" duration="3038000" />
+      <workItem from="1730115039770" duration="41000" />
+      <workItem from="1730115315336" duration="2644000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="args" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
