@@ -38,15 +38,16 @@ public class VigenereBreakerTest {
     }
 
     public void testTryKeyLength() {
-        FileResource fl = new FileResource("resources/athens_keyflute.txt");
+        FileResource fl = new FileResource("resources/secretmessage2.txt");
         String message = fl.asString();
 
-        //For this moment, we are testing with a know number of keys and know common word.
-        int[] keys = vb.tryKeyLength(message, 5, 'e');
+        //For this moment, we are testing with a known number of keys and known common word.
+        int[] keys = vb.tryKeyLength(message, 38, 'e');
         System.out.println(keys);
     }
 
     public void testBreakVigenere() {
+        /** In this method, we dont need to pass args...*/
         vb.breakVigenere();
     }
 }

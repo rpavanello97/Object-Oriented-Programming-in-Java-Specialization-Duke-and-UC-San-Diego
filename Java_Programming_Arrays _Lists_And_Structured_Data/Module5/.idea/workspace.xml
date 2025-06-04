@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa3ebcbc-a2fa-48ea-89d9-0053fb73542a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tests/CaesarCipherTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/CaesarCrackerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/VigenereBreakerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/VigenereCipherTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/VigenereProgram/dictionaries/Danish" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/VigenereProgram/dictionaries/Dutch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/VigenereProgram/dictionaries/English" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/VigenereProgram/dictionaries/French" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/VigenereProgram/dictionaries/German" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/VigenereProgram/dictionaries/Italian" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/VigenereProgram/dictionaries/Portuguese" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/VigenereProgram/dictionaries/Spanish" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/classes/VigenereBreaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/VigenereBreaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/VigenereBreakerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/VigenereBreakerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,12 +58,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Run",
+    "Application.Main.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Object-Oriented-Programming-in-Java-Specialization-Duke-and-UC-San-Diego/Java_Programming_Arrays _Lists_And_Structured_Data/Library/courserajava.jar",
+    "last_opened_file_path": "C:/workspace/CreateUrlLambda",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -68,15 +72,15 @@
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.52873564",
-    "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21155.17" />
-        <option value="bundled-js-predefined-d6986cc7102b-bed05e336f61-JavaScript-IU-243.21155.17" />
+        <option value="bundled-jdk-9823dce3aa75-60c2bc820a0d-intellij.indexing.shared.core-IU-252.18003.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-d8cef83ef014-JavaScript-IU-252.18003.27" />
       </set>
     </attachedChunks>
   </component>
@@ -93,6 +97,16 @@
       <workItem from="1730111820157" duration="3038000" />
       <workItem from="1730115039770" duration="41000" />
       <workItem from="1730115315336" duration="2644000" />
+      <workItem from="1730118026934" duration="3336000" />
+      <workItem from="1730195858255" duration="7345000" />
+      <workItem from="1730325267499" duration="570000" />
+      <workItem from="1730364796823" duration="6868000" />
+      <workItem from="1730750786720" duration="2440000" />
+      <workItem from="1730796615249" duration="4925000" />
+      <workItem from="1731417071689" duration="17000" />
+      <workItem from="1732057198862" duration="86000" />
+      <workItem from="1732093606773" duration="1178000" />
+      <workItem from="1749054627546" duration="2582000" />
     </task>
     <servers />
   </component>
@@ -100,6 +114,24 @@
     <option name="version" value="3" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/tests/VigenereBreakerTest.java</url>
+          <line>12</line>
+          <properties class="tests.VigenereBreakerTest" method="testSliceString">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/classes/VigenereBreaker.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="args" />
