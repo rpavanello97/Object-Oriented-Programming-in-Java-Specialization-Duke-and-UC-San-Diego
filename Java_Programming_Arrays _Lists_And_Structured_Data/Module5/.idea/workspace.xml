@@ -6,16 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fa3ebcbc-a2fa-48ea-89d9-0053fb73542a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/VigenereProgram/dictionaries/Danish" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/VigenereProgram/dictionaries/Dutch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/VigenereProgram/dictionaries/English" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/VigenereProgram/dictionaries/French" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/VigenereProgram/dictionaries/German" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/VigenereProgram/dictionaries/Italian" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/VigenereProgram/dictionaries/Portuguese" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/VigenereProgram/dictionaries/Spanish" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/classes/VigenereBreaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/VigenereBreaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/VigenereBreakerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/VigenereBreakerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,26 +47,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/workspace/CreateUrlLambda",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.52873564",
-    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/workspace/CreateUrlLambda&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.52873564&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -106,12 +97,25 @@
       <workItem from="1731417071689" duration="17000" />
       <workItem from="1732057198862" duration="86000" />
       <workItem from="1732093606773" duration="1178000" />
-      <workItem from="1749054627546" duration="2582000" />
+      <workItem from="1749054627546" duration="6902000" />
+      <workItem from="1749113512699" duration="8750000" />
+      <workItem from="1749585303246" duration="803000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -124,11 +128,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/classes/VigenereBreaker.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
